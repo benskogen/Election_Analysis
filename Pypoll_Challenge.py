@@ -11,12 +11,13 @@ file_to_load = "01-Assignments/03-PyPoll/Resources/election_results.csv"
 
 # file_to_load = os.path.join("..", "Resources", "election_results.csv")
 #01-Assignments/03-PyPoll/Resources/election_results.csv
+    #**unable to set this path^
 
-print("file_to_load")
+print("file_to_load") #**no results printed
 
 # Add a variable to save the file to a path.
 #file_to_save = os.path.join("analysis", "election_analysis.txt")
-
+    #**unable to set this path^
 file_to_save = "01-Assignments/03-PyPoll/Resources/election_analysis"
 
 
@@ -115,13 +116,14 @@ with open(file_to_save, "w") as txt_file:
          # 6e: Save the county votes to a text file.
 
          # 6f: Write an if statement to determine the winning county and get its vote count.
-    if county_vote_count >= (total_votes * 0.5) then 
-        print(county_name) and print(county_vote_count)
+    if (votes > winning_count):
+        winning_county = votes
+        winning_county = county_name
 
 
     # 7: Print the county with the largest turnout to the terminal.
 
-
+        print(winning_county)
     # 8: Save the county with the largest turnout to a text file.
 
 
